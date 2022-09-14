@@ -1,0 +1,5 @@
+	ABC Company,
+	Name: Fei Ke     - Employee ID: 1003
+	Pay date 	15/09/2022
+	Net Salary $ 1550.0
+
