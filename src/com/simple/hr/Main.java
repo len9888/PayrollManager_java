@@ -15,15 +15,21 @@ public class Main {
         SalariedEmployee emp1 = new SalariedEmployee("Bob Sawyer", 65000);
         SalariedEmployee emp2 = new SalariedEmployee("Jane White", 57000);
         SalariedEmployee emp3 = new SalariedEmployee("Joe Brown", 50000);
+        HourlyEmployee emp4 = new HourlyEmployee("Fei Ke", 200);
 
-        String fileName = "Paystubs.txt";
+        String SEfileName = "SalarieEmployeePaystubs.txt";
+        String HEfileName = "HourlyEmployeePaystubs.txt";
 
         List<SalariedEmployee> employees = new ArrayList<>();
         employees.add(emp1);
         employees.add(emp2);
         employees.add(emp3);
 
-        SalariedEmployee.printStub(fileName,employees);
+        List<HourlyEmployee> employeeList = new ArrayList<>();
+        employeeList.add(emp4);
+
+        SalariedEmployee.printStub(SEfileName,employees);
+        HourlyEmployee.printStub(HEfileName,employeeList);
 
     }
 }
