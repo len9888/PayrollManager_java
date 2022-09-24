@@ -18,4 +18,9 @@ public class Department {
     public ArrayList<Employee> getEmployeeList() {
         return employeeList;
     }
+
+    @Override
+    public String toString(){
+        return this.name;
+    }
 }
